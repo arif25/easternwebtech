@@ -1,0 +1,21 @@
+
+.bx-sec-banner {
+    .carousel-item {
+        .carousel-img {
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+            max-height: 100vh;
+            &::after {
+                content: '';
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                background: #00000052;
+                backdrop-filter:blur(1.2px);
+            }
+        }
+    }
+}

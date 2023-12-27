@@ -1,0 +1,33 @@
+.asi-quick-inquiry {  
+    position: relative;
+    z-index: 9;  
+    .btn{
+        position: fixed;
+        right: -79px;
+        top: 40%;
+        transform: rotate(-90deg);
+        border-radius: 1px;
+        background: #000;
+        border: 1px solid #ccc;
+        font-size: 19px;
+        padding: 12px 19px;
+        &:hover {
+            background: #0d6efd;  
+            
+        }
+    } 
+}   
+.modal-dialog {
+    position: fixed;
+    right: 0;
+    width: 560px;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    height: 100vh;
+    .modal-content {
+        height: 100vh;
+        border-radius: 0;
+        border: 0px;
+    }
+}

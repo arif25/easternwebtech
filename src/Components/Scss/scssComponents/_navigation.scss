@@ -1,0 +1,32 @@
+
+.asi-navigation {
+    padding-top: 16px;
+}
+.sec-navigation {
+    .navbar-collapse {
+        flex-grow: unset;
+        a {
+            color: #fff;
+            text-transform: uppercase;            
+            font-weight: 600;
+            text-align: center;
+            font-size: 14px;
+            &:hover {
+                background: none; 
+                color: #6fbaff;
+            }
+        }
+    }
+    .navbar-brand {
+        img {
+            width: 240px;
+        }
+    }
+    .navbar-nav .dropdown-menu {
+        background: #ffffff24;
+    }
+    .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+        background: none; 
+        color: #6fbaff;
+    }
+}

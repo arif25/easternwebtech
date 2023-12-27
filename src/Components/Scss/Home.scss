@@ -1,0 +1,27 @@
+@import './scssComponents/common';
+@import './scssComponents/variables';
+@import './scssComponents/homeBanner';
+@import './scssComponents/quickInquiry';
+
+.sec-home {
+    position: relative;
+    header {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;    
+        z-index: 1;
+    }
+}
+.sec-banner-carousel {
+    img {
+        width: $w100;
+    }
+}
+
+
+
+
+
+
+

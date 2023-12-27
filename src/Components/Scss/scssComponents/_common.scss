@@ -1,0 +1,379 @@
+* {
+    box-sizing: border-box;
+}
+.mt-16{
+    margin-top:16px;
+}
+.pt-16{
+    padding-top:16px;
+}
+.mt-24{
+    margin-top:24px;
+}
+.pt-24{
+    padding-top:24px;
+}
+.mt-32{
+    margin-top:32px;
+}
+.pt-32{
+    padding-top:32px;
+}
+.mt-40{
+    margin-top:40px;
+}
+.pt-40{
+    padding-top:40px;
+}
+.mt-48{
+    margin-top:48px;
+}
+.pt-48{
+    padding-top:48px;
+}
+.mt-56{
+    margin-top:56px;
+}
+.pt-56{
+    padding-top:56px;
+}
+.mt-80{
+    margin-top:80px;
+}
+.pt-80{
+    padding-top:80px;
+}
+.mt-108{
+    margin-top:108px;
+}
+.pt-108{
+    padding-top:108px;
+}
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+.mb-16 {
+    margin-bottom: 16px !important;
+}
+.container{
+    max-width: 1296px;
+    width:100%;
+    margin:0 auto;
+}
+.dfjcsb{
+    display: flex;
+    justify-content: space-between;
+}
+figure{
+    position: relative;
+    img{
+        display: block;
+        width:100%;
+    }
+}
+a{
+    color:#000;
+    &:hover{
+        color:#B70000;
+    }
+}
+.section-title{
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-family: var(--ffroboto);
+}
+.fs20{
+    font-size: 27px;
+    line-height: 27px;
+}
+.adbox{
+    background:#F8F8F8;
+    padding-bottom: 16px;
+    span{
+        display: block;
+        color:#5d5d5d;
+        font-size: 8px;
+        font-family: var(--ffroboto);
+        padding:4px 0 8px;
+        text-align: center;
+    }
+}
+.ad250{
+    min-height:250px;
+    text-align: center;
+}
+.tac{
+    text-align: center;
+}
+.topsticky{
+    position: sticky;
+    top:0;
+}
+.stickyad{
+    position: sticky;
+    top:44px;
+}
+.betellips{
+	text-overflow:ellipsis;
+	overflow:hidden; 
+	display: -webkit-box; 
+	-webkit-box-orient: vertical;
+}
+.betvl-1{-webkit-line-clamp:1}
+.betvl-2{-webkit-line-clamp:2}
+.betvl-3{-webkit-line-clamp: 3}
+.betvl-4{-webkit-line-clamp:4}
+.betvl-5{-webkit-line-clamp:5}
+.betvl-6{-webkit-line-clamp:6}
+.betvl-7{-webkit-line-clamp:7}
+.photoiconbg{
+    width:48px;
+    height: 48px;
+    position: var(--pabsolute);
+    bottom:0;
+    left:0;
+    background-color: #B80000;
+    display: var(--df);
+    justify-content: var(--tac);
+    align-items: var(--tac);
+    img{
+        width:32px;
+        height: 32px;
+    }
+}
+.videoiconbg{
+    width:48px;
+    height: 48px;
+    position: var(--pabsolute);
+    bottom:0;
+    left:0;
+    background-color: #B80000;
+    display: var(--df);
+    justify-content: var(--tac);
+    align-items: var(--tac);
+    img{
+        width:21px;
+        height: 24px;
+    }
+}
+.prelative{
+    position: var(--prelative);
+}
+.marketingbanner{
+    overflow: hidden;
+    text-align: var(--tac);
+    img{
+        height:280px;
+    }
+    .slick-track{
+        display: var(--df);
+    }
+}
+.mbarrowbox{
+    width:40px;
+    height: 40px;
+    display: var(--df);
+    justify-content: var(--tac);
+    align-items: var(--tac);
+    background:#f2f0f3;
+    position: var(--pabsolute);
+    z-index: 9999;
+    &.mbleftarrow{
+        top:120px;
+        left:0;
+    }
+    &.mbrightarrow{
+        top:120px;
+        right:0;
+    }
+}
+.marketing-banner{
+    position: sticky;
+    z-index: 1;
+    top:50px;
+}
+// slick dots 
+.slick-dots
+{
+    position: absolute;
+    bottom: -2px;
+    right: 0;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    display: none;
+}
+.slick-dots li
+{
+    position: relative;
+    display: inline-block;
+    // width: 20px;
+    // height: 20px;
+    padding: 0;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.slick-dots li button{
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+    font-size: 32px;
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus
+{
+    outline: none;
+}
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before,
+.slick-dots li.slick-active button::before
+{
+    opacity: 1;
+}
+.slick-dots li button:before
+{
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 32px;
+    box-sizing: border-box;
+}
+
+.ad250{
+    min-height:275px; 
+    text-align:center;
+}
+.ad280{
+    min-height:305px; 
+    text-align:center;
+}
+.ad600{
+    min-height:625px; 
+    text-align:center;
+}
+.ad90{
+    min-height:115px;
+     text-align:center;
+    }
+
+
+// button hover Animate start
+.fill:hover,
+.fill:focus {
+  box-shadow: inset 0 0 0 2em var(--hover);
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+
+.pulse:hover, 
+.pulse:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 var(--hover); }
+}
+
+.close:hover,
+.close:focus {
+  box-shadow: 
+    inset -3.5em 0 0 0 var(--hover),
+    inset 3.5em 0 0 0 var(--hover);  
+}
+
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+.up:hover,
+.up:focus {
+  box-shadow: inset 0 -3.25em 0 0 var(--hover);
+}
+.slide:hover,
+.slide:focus {
+  box-shadow: inset 6.5em 0 0 0 var(--hover);
+}
+.offset {  
+  box-shadow: 
+    0.3em 0.3em 0 0 var(--color),
+    inset 0.3em 0.3em 0 0 var(--color);
+  
+  &:hover,
+  &:focus {
+    box-shadow: 
+      0 0 0 0 var(--hover),
+      inset 6em 3.5em 0 0 var(--hover);
+  }
+}
+$colors: (
+  fill: #a972cb,
+  pulse: #ef6eae, 
+  close: #ff7f82, 
+  raise: #ffa260, 
+  up: #e4cb58, 
+  slide: #8fc866, 
+  offset: #19bc8b
+);
+@each $button, $color in $colors {
+  .#{$button} {
+    --color: #{$color};
+    --hover: #{adjust-hue($color, 45deg)};
+  }
+}
+.button {  
+  color: var(--color);
+  transition: 0.25s;
+  
+  &:hover,
+  &:focus { 
+    border-color: var(--hover);
+    color: #fff;
+  }
+}
+.button {
+  background: none;
+  font: inherit;
+  line-height: 1;
+}
+.stickyad {
+    figure {
+        text-align: center;
+        img {
+            margin: 0 auto;
+            width: auto;
+        }
+    }
+}
+// Button hover animation end

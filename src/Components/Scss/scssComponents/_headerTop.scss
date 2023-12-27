@@ -1,0 +1,84 @@
+
+.asi-headtop {
+    padding-top: 18px;
+}
+
+.sec-header-top {
+    .service-requiest-support {
+        ul{
+            display: flex;
+            gap: 24px;
+            li{
+                position: relative;
+                &::after {
+                    position: absolute;
+                    content: '';
+                    right: -12px;
+                    top: 4px;
+                    height: 18px;
+                    width: 1px;
+                    border-right: 1px solid #ccc;
+                }
+                a {
+                    color: #fff;
+                    font-size: 10px;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    letter-spacing: 0.6px;
+                }
+                &:last-child {
+                    &::after {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    .log-sign-socialicons {
+        display: flex;
+        justify-content: end;
+        gap: 24px;
+        color: #fff;
+        .log-sign {
+            ul{
+                display: flex;
+                gap: 24px;
+                li{
+                    position: relative;
+                    &::after {
+                        position: absolute;
+                        content: '/';
+                        right: -12px;
+                        top: 0px;
+                        height: 18px;
+                        width: 1px;
+                    }
+                    a {
+                        color: #fff;
+                        text-transform: uppercase;
+                        font-size: 10px;
+                        font-weight: 400;
+                        letter-spacing: 0.6px;
+                    }
+                    &:last-child {
+                        &::after {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+        .social-icons {
+            ul{
+                display: flex;
+                gap: 24px;
+                li{
+                    a {
+                        color: #fff;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+}
