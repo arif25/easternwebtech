@@ -1,7 +1,7 @@
 @import './scssComponents/common';
 @import './scssComponents/variables';
-@import './scssComponents/homeBanner';
 @import './scssComponents/quickInquiry';
+@import './scssComponents/Homepage/homeBanner';
 @import './scssComponents/Homepage/HomeAboutus';
 @import './scssComponents/Homepage/HomeServices';
 @import './scssComponents/Homepage/HomeProgress';
@@ -21,7 +21,6 @@
         width: $w100;
     }
 }
-
 .title {
     max-width: 610px;
     margin: 0 auto;
