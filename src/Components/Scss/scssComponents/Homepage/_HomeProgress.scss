@@ -1,0 +1,30 @@
+.sec-homeProgressNumber {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    ul {
+        display: flex;
+        justify-content: space-between;
+        height: 216px;
+        align-items: center;
+        li {
+            .ProgressIcon {
+                font-size: 32px;
+            }
+            .ProgressNumber {
+                font-size: 42px;
+                font-weight: 700;
+                line-height: 49px;
+                span {
+                    font-weight: 400;
+                }
+            }
+            .ProgressTitle {
+                font-size: 14px;
+                font-weight: 500;
+                letter-spacing: 0;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
