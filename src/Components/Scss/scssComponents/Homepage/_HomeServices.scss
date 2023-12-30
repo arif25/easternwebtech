@@ -1,0 +1,28 @@
+.sec-homeOurservices {
+    text-align: center;
+    padding: 44px 0; 
+    background-color: #f2efea;
+    .contentServices {
+        display: flex;
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+            li{
+                width: 100%;
+            }
+        }
+        .icon {  }
+        .titleItem{  }
+        .titleDetails{  }
+        .titleBtn {  }
+    }
+    .leftServices {
+        width: 25%;
+    }
+    .rightServices {
+        width: 25%;
+    }
+    .imgServices {
+        text-align: center
+    }
+}

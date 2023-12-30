@@ -21,6 +21,9 @@ const Home = () =>{
             <section className="HomeAboutus">
                 <HomeAboutus />
             </section>
+            <section className="HomeServices">
+                <HomeServices />
+            </section>
             <section className="testimonials">
                 <Testimonials />
             </section>
@@ -29,9 +32,6 @@ const Home = () =>{
             </section>
             <section className="StickyInquiryForm">
                 <StickyInquiryForm />
-            </section>
-            <section className="HomeServices">
-                <HomeServices />
             </section>
             <section className="HomeProgressNumber">
                 <HomeProgressNumber />

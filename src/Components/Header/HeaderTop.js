@@ -2,11 +2,9 @@ import React from "react";
 import { render } from "react-dom";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 
 import {  faFacebookF, faXTwitter, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
-const fontCoffee = <FontAwesomeIcon icon={faCoffee} />
 const fontFacebookF = <FontAwesomeIcon icon={faFacebookF} />
 const fontTwitter = <FontAwesomeIcon icon={faXTwitter} />
 const fontLinkedin = <FontAwesomeIcon icon={faLinkedin} />
