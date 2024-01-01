@@ -5,6 +5,13 @@
 @import './scssComponents/Homepage/HomeAboutus';
 @import './scssComponents/Homepage/HomeServices';
 @import './scssComponents/Homepage/HomeProgress';
+@import './scssComponents/Homepage/HomeWebDev';
+@import './scssComponents/Homepage/HomeChooseus';
+@import './scssComponents/Homepage/HomeResponsive';
+@import './scssComponents/Homepage/HomeOurProcess';
+@import './scssComponents/Homepage/HomeLatestWork';
+@import './scssComponents/Homepage/testimonials';
+@import './scssComponents/Homepage/HomeOurCliets';
 
 .sec-home {
     position: relative;
@@ -36,9 +43,10 @@
     }
     .titleBig {
         font-weight: 700;
-        font-size: 50px;
+        font-size: 40px;
         line-height: 1.16;
         margin-bottom: 12px;
+        text-align: center;
     }
 }
 .details {

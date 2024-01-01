@@ -1,0 +1,63 @@
+.sec-HomeLatestWork {
+    padding: 80px 0;
+    background: #f2efea;
+    border-top: 1px solid #e5e4e1;
+    .titleLatestWorks {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 33px;
+    }
+    .projectName {
+        margin-top: 8px;
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 16px 16px 0;
+    }
+    .bx-HomeLatestWork {
+        margin-top: 12px;
+        ul { 
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px;
+            li {
+                width: 23%;
+                margin-top: 16px;
+                background: #fff;
+                box-shadow: 0 0px 3px 0px #ccc;
+                border-radius: 2px;
+                .imgbx {
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .btn-latestworks {
+        font-weight: 500;
+        color: #00c2e5;
+        font-size: 12px;
+        text-transform: uppercase;        
+        padding: 16px;
+        text-align: center;        
+    }
+    .btnviewall {
+        text-align: center;
+        margin-top: 44px;
+        a {
+            background-color: #00c2e5;
+            border-radius: 3px;
+            color: #fff;
+            display: inline-block;
+            font-family: "Poppins", "Open Sans", Helvetica, Arial, sans-serif;
+            font-size: 12px;
+            letter-spacing: 1px;
+            line-height: 1.5;
+            text-transform: uppercase;
+            font-weight: 600;
+            padding: 12px 16px;
+            min-width: 200px;
+        }
+    }
+}

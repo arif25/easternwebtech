@@ -3,11 +3,17 @@ import '../Components/Scss/Home.scss';
 import Header from "./Header/Header";
 import Banner from "./HomePage/HomeBanner/Banner";
 import StickyInquiryForm from "./StikyInquirtForm";
-import Testimonials from "./Testimonials";
-import OurClients from "./OurClients";
+import Testimonials from "./HomePage/Testimonials";
+import OurClients from "./HomePage/OurClients";
 import HomeAboutus from "./HomePage/HomeAboutus";
 import HomeServices from "./HomePage/HomeServices";
 import HomeProgressNumber from "./HomePage/HomeProgressNUmber";
+import HomeWebdesign from "./HomePage/HomeWebdesign";
+import HomeWebdev from "./HomePage/HomeWebdev";
+import HomeChooseus from "./HomePage/HomeWhyChooseus";
+import HomeResponsive from "./HomePage/HomeResponsive";
+import HomeOurProcess from "./HomePage/HomeOurProcess";  
+import HomeLatestWork from "./HomePage/HomeLatestWork";
 
 const Home = () =>{
     return(
@@ -26,6 +32,24 @@ const Home = () =>{
             </section>
             <section className="HomeProgressNumber">
                 <HomeProgressNumber />
+            </section>
+            <section className="HomeWebdesign">
+                <HomeWebdesign />
+            </section>
+            <section className="HomeWebdesign">
+                <HomeWebdev />
+            </section>
+            <section className="HomeChooseus">
+                <HomeChooseus />
+            </section>
+            <section className="HomeResponsive">
+                <HomeResponsive />
+            </section>
+            <section className="HomeOurProcess">
+                <HomeOurProcess />
+            </section>
+            <section className="HomeLatestWork">
+                <HomeLatestWork />
             </section>
             <section className="testimonials">
                 <Testimonials />

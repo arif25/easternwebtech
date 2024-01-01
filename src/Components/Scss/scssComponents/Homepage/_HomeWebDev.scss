@@ -1,0 +1,42 @@
+.sec-homewebdev {
+    padding: 60px 0;
+    font-family: 'Poppins', sans-serif;
+    .bx-content-web-dev {
+        display: flex;
+        justify-content: space-between;
+        gap: 104px;
+        align-items: center;
+        .content-webdev {
+            .title-webdev {
+                font-size: 28px;
+                line-height: 1.2;
+                font-weight: 600;                
+            }
+            .details-webdev {
+                margin: 0 0 20px 0;
+                color: #616161;
+                font-size: 14px;
+                line-height: 1.8;
+                margin-top: 16px;
+            }
+            .btn-webdev {
+                a {
+                    background-color: #00c2e5;
+                    border-radius: 3px;
+                    color: #fff;
+                    display: inline-block;
+                    font-family: 'Poppins','Open Sans', Helvetica, Arial, sans-serif;
+                    font-size: 12px;
+                    letter-spacing: 1px;
+                    line-height: 1.5;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    padding: 12px 16px;
+                }
+            }
+        }
+        .image-webdev {
+            height: auto;
+        }
+    }
+}

@@ -1,0 +1,79 @@
+.sec-testimonials {
+    padding: 70px 0;
+    .title {
+        text-align: center;
+    }
+    .details {
+        text-align: center;
+        margin: 15px auto 0;
+    }
+    .borderSecEnd {
+        margin: 20px auto 0;
+    }
+    .bx-testi-carousel {
+        margin-top: 64px;
+        li {
+            border: 1px solid #ededed;
+            padding: 40px 24px;
+            width: 390px !important;
+        }
+        .item {
+            text-align: center;
+            // border: 1px solid #ededed;
+            // padding: 24px;
+            // width: 390px; 
+            .photo {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                border: 1px solid #e6e6e6;
+                margin: 0 auto;
+                overflow: hidden;
+                img {
+                    width: 100%;
+                }
+            }
+            .itemtitle {
+                margin-top: 24px;
+                .name {
+                    font-size: 15px;
+                    font-weight: 600;
+                    color: #333;
+                    margin-bottom: 3px;
+                    line-height: 1.2;
+                }
+                .job {
+                    font-size: 11px;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    color: #888;
+                }
+            }
+            .code {
+                width: 28px;
+                height: 28px;
+                border-radius: 50%;
+                display: flex;
+                background: #daa700;
+                align-items: center;
+                justify-content: center;
+                margin: 0 auto;
+                color: #fff;
+                font-size: 27px;
+                padding-top: 11px;
+                margin-top: 24px;
+            }
+            .itemdetails {
+                margin-top: 24px;
+                color: #a5a5a5;
+                font-size: 13px;
+            }
+        }
+        .react-multi-carousel-track {
+            gap: 24px;
+            justify-content: center;
+            padding-bottom: 6px;
+        }
+    }
+}

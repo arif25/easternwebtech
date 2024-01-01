@@ -1,0 +1,41 @@
+.sec-HomeResponsive { 
+    background: url("../../../images/responsive_sec.jpg") no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0 0;
+    margin-top: 100px;
+    color: #fff;
+    .title {
+        .res-title-bold {
+            font-weight: bold;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 22px;
+        }
+        .res-title-normal {
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 28px;
+            line-height: 1.2;
+            font-weight: 300;
+        }
+    }
+    .bx-home-responsive {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 36px;
+        gap: 24px;
+        ul {
+            li {
+                margin-top: 64px;
+                .bx-itemResponsive {
+                    display: flex;
+                    gap: 24px;
+                }
+                .icon-itemResponsive {
+                    font-size: 28px;
+                }
+            }
+        }
+    }
+}
