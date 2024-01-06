@@ -28,8 +28,9 @@ const Testimonials = () =>{
         <section className='sec-testimonials'>
             <div className="container">
                 <div className="title">
+                    <p>Testimonials</p>
                     <div className="titleBig">
-                        What Clients Say 
+                        They Say 
                     </div>
                 </div>
                 <div className="borderSecEnd"></div>

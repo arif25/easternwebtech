@@ -14,6 +14,8 @@ import HomeChooseus from "./HomePage/HomeWhyChooseus";
 import HomeResponsive from "./HomePage/HomeResponsive";
 import HomeOurProcess from "./HomePage/HomeOurProcess";  
 import HomeLatestWork from "./HomePage/HomeLatestWork";
+import Startsyourproject from "./HomePage/Startsyourproject";
+import Footer from "./Header/Footer";
 
 const Home = () =>{
     return(
@@ -59,6 +61,12 @@ const Home = () =>{
             </section>
             <section className="StickyInquiryForm">
                 <StickyInquiryForm />
+            </section>
+            <section className="Startsyourproject">
+                <Startsyourproject />
+            </section>
+            <section className="">
+                <Footer />
             </section>
         </section>
     );
