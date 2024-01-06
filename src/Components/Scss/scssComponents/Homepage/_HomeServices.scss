@@ -64,3 +64,21 @@
         text-align: center
     }
 }
+
+// Responsive //
+@media (max-width: 768px){
+    .sec-homeOurservices .contentServices {
+        flex-wrap: wrap;
+    }
+    .imgServices {
+        img {
+            max-width: 100%;
+        }
+    }
+    .sec-homeOurservices .leftServices {
+        width: 100%;
+    }
+    .sec-homeOurservices .rightServices {
+        width: 100%;
+    }
+}

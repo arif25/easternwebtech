@@ -40,3 +40,15 @@
         }
     }
 }
+
+// === Responsive === //
+@media (max-width: 768px){
+    .sec-homewebdev .bx-content-web-dev {
+        flex-wrap: wrap;
+    }
+    .image-webdev {
+        img {
+            max-width: 100%;
+        }
+    }
+}

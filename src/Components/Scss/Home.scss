@@ -68,7 +68,16 @@
     margin: 40px auto 0;
 }
 
-
+// ===Responsive===//
+@media (max-width: 768px){
+    .title .titleBig {
+        font-size: 26px;
+    }
+    .details {
+        max-width: 100%;
+        margin: 24px auto 0;
+    }
+}
 
 
 

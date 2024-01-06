@@ -2,3 +2,10 @@
     text-align: center;
     padding: 100px 0;
 }
+
+// ===Responsive=== //
+@media (max-width:768px){
+    .sec-homeaboutus {
+        padding: 47px 0;
+    }
+}

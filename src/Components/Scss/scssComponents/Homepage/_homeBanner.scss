@@ -65,3 +65,10 @@
         }
     }
 }
+
+// ==== Responsive === //
+@media (max-width:768px){
+    .bx-sec-banner .carousel-item .carousel-caption {
+        display: none;
+    }
+}
