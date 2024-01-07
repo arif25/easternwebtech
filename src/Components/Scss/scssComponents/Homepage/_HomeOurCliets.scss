@@ -3,3 +3,12 @@
         margin-top: 40px;
     }
 }
+
+// === Responsive === //
+@media (max-width: 768px){
+    .sec-testimonials .bx-testimonials {
+        .item {
+            text-align: center;
+        }
+    }
+}

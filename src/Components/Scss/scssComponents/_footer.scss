@@ -161,6 +161,26 @@ footer {
         flex-wrap: wrap;
         .col {
             flex:none;
+            margin-top: 24px;
+            &:first-child {
+                margin-top: 0; 
+            }
+        }
+    }
+    footer {
+        padding: 40px 0 0 0;
+        .title {
+            margin: 0 0 13px 0;
+        }
+        .foot-aboutus .content {
+            margin-top: 14px;
+        }
+        .col {
+            flex:none;
+            margin-top: 24px;
+            &:first-child {
+                margin-top: 0; 
+            }
         }
     }
 }
