@@ -15,7 +15,7 @@ const HeaderTop = () =>{
         <section className="sec-header-top">
             <div className="container">
                 <div className="row">
-                    <div className="col-6">
+                    <div className="col">
                         <div className="service-requiest-support">
                             <ul>
                                 <li>
@@ -30,7 +30,7 @@ const HeaderTop = () =>{
                             </ul>
                         </div>
                     </div>
-                    <div className="col-6">
+                    <div className="col">
                         <div className="log-sign-socialicons">
                             <div className="log-sign">
                                 <ul>

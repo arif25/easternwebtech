@@ -82,3 +82,30 @@
         }
     }
 }
+
+// === Responsive === //
+@media (max-width: 768px){
+    .sec-header-top .service-requiest-support ul {
+        display: flex;
+        gap: 24px;
+        justify-content: center;
+    }
+    .sec-header-top {
+        .log-sign-socialicons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            .log-sign {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+        }
+        .social-icons {
+            width: 100%;
+            justify-content: center;
+            text-align: center;
+            display: flex;
+        }
+    }
+}
