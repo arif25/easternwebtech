@@ -81,4 +81,13 @@
     .sec-homeOurservices .rightServices {
         width: 100%;
     }
+    .sec-homeOurservices .contentServices .icon svg {
+        font-size: 24px;
+        path {
+            fill: #ababab;
+        }
+    }
+    .sec-homeOurservices .contentServices ul li {
+        margin-top: 38px;
+    }
 }

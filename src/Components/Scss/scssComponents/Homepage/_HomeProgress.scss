@@ -34,12 +34,21 @@
     .sec-homeProgressNumber ul {
         flex-wrap: wrap;
         height: auto;
-        gap: 40px; 
+        gap: 4px; 
         li {
             width: 100%;
         }
     }
     .sec-homeProgressNumber {
-        padding: 60px 0;
+        padding: 26px 0 41px;
+    }
+    .sec-homeProgressNumber ul li .ProgressIcon {
+        font-size: 32px;
+        svg {
+            font-size: 23px;
+        }
+    }
+    .sec-homeProgressNumber ul li .ProgressNumber {
+        font-size: 32px; 
     }
 }

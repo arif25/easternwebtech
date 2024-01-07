@@ -653,6 +653,15 @@ a {
   .sec-homeOurservices .rightServices {
     width: 100%;
   }
+  .sec-homeOurservices .contentServices .icon svg {
+    font-size: 24px;
+  }
+  .sec-homeOurservices .contentServices .icon svg path {
+    fill: #ababab;
+  }
+  .sec-homeOurservices .contentServices ul li {
+    margin-top: 38px;
+  }
 }
 .sec-homeProgressNumber {
   background: #333;
@@ -687,13 +696,22 @@ a {
   .sec-homeProgressNumber ul {
     flex-wrap: wrap;
     height: auto;
-    gap: 40px;
+    gap: 4px;
   }
   .sec-homeProgressNumber ul li {
     width: 100%;
   }
   .sec-homeProgressNumber {
-    padding: 60px 0;
+    padding: 26px 0 41px;
+  }
+  .sec-homeProgressNumber ul li .ProgressIcon {
+    font-size: 32px;
+  }
+  .sec-homeProgressNumber ul li .ProgressIcon svg {
+    font-size: 23px;
+  }
+  .sec-homeProgressNumber ul li .ProgressNumber {
+    font-size: 32px;
   }
 }
 .sec-homewebdev {
@@ -738,9 +756,16 @@ a {
 @media (max-width: 768px) {
   .sec-homewebdev .bx-content-web-dev {
     flex-wrap: wrap;
+    gap: 56px;
   }
   .image-webdev img {
     max-width: 100%;
+  }
+  .sec-homewebdev .bx-content-web-dev .content-webdev .title-webdev {
+    font-size: 24px;
+  }
+  .sec-homewebdev {
+    padding: 0px 0 60px;
   }
 }
 .sec-HomeChooseus {
@@ -791,6 +816,7 @@ a {
   .sec-HomeChooseus .bx-content-chooseus {
     align-items: flex-start;
     flex-wrap: wrap;
+    margin-top: 34px;
   }
   .bx-content-chooseus img {
     width: 100%;
@@ -837,6 +863,7 @@ a {
 @media (max-width: 768px) {
   .sec-HomeResponsive .bx-home-responsive {
     flex-wrap: wrap;
+    margin-top: 7px;
   }
   .img-home-responsive img {
     width: 100%;
@@ -847,6 +874,9 @@ a {
   .sec-HomeResponsive {
     padding: 50px 0 50px;
     margin-top: 60px;
+  }
+  .sec-HomeResponsive .title .res-title-normal {
+    font-size: 16px;
   }
 }
 .sec-HomeOurProcess {
@@ -1164,18 +1194,21 @@ body {
 
 @media (max-width: 768px) {
   .Startsyourproject, .bg-Startsyourproject img {
-    min-height: 300px;
+    min-height: 250px;
   }
   .bg-Startsyourproject img {
     width: 100%;
     opacity: 0.2;
   }
   .sec-Startsyourproject .content-Startsyourproject .bigtitle {
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 500;
   }
   .sec-Startsyourproject .content-Startsyourproject {
     top: 14%;
+  }
+  .sec-Startsyourproject .content-Startsyourproject .btnsyp a {
+    padding: 11px 13px 10px;
   }
 }
 .sec-home {

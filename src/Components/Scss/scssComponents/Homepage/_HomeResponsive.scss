@@ -44,6 +44,7 @@
 @media (max-width:768px){
     .sec-HomeResponsive .bx-home-responsive {
         flex-wrap: wrap;
+        margin-top: 7px;
     }
     .img-home-responsive {
         img {
@@ -56,5 +57,8 @@
     .sec-HomeResponsive {
         padding: 50px 0 50px;
         margin-top: 60px;
+    }
+    .sec-HomeResponsive .title .res-title-normal {
+        font-size: 16px;
     }
 }

@@ -56,17 +56,20 @@ body {
 //=== Responsive ===//
 @media (max-width: 768px){
     .Startsyourproject, .bg-Startsyourproject img {
-        min-height: 300px;
+        min-height: 250px;
     }
     .bg-Startsyourproject img {
         width: 100%;
         opacity: .2;
     }
     .sec-Startsyourproject .content-Startsyourproject .bigtitle {
-        font-size: 36px;
+        font-size: 24px;
         font-weight: 500;
     }
     .sec-Startsyourproject .content-Startsyourproject {
         top: 14%;
+    }
+    .sec-Startsyourproject .content-Startsyourproject .btnsyp a {
+        padding: 11px 13px 10px;
     }
 }
