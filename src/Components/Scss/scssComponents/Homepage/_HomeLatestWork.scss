@@ -61,3 +61,13 @@
         }
     }
 }
+
+// === Responsive === //
+@media (max-width: 768px){
+    .sec-HomeLatestWork {
+        padding: 36px 0;
+    }
+    .sec-HomeLatestWork .bx-HomeLatestWork ul li {
+        width: 100%;
+    }
+}

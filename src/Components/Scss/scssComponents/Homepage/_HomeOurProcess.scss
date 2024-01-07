@@ -72,5 +72,14 @@
 @media (max-width: 768px){
     .sec-HomeOurProcess .bx-HomeOurProcess ul {
         flex-wrap: wrap;
+    }    
+    .sec-HomeOurProcess .bx-HomeOurProcess ul li .bx-item-ourProcess::after {
+        right: 45%;
+        top: unset;
+        bottom: -51px;
+        transform: rotate(90deg);
+    }
+    .sec-HomeOurProcess {
+        padding: 50px 0;
     }
 }

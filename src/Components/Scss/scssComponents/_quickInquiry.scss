@@ -31,3 +31,15 @@
         border: 0px;
     }
 }
+
+// === Responsive === //
+@media (max-width: 768px){
+    .modal.show .modal-dialog {
+        width: 100%;
+    }
+    .asi-quick-inquiry .btn {
+        right: -68px;
+        font-size: 16px;
+        padding: 6px 12px;
+    }
+}

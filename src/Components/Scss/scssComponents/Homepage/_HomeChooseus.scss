@@ -41,3 +41,11 @@
         }
     }
 }
+
+// === Responsive === //
+@media (max-width: 768px){
+    .sec-HomeChooseus .bx-content-chooseus {
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+}

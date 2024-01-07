@@ -145,3 +145,16 @@ footer {
         }
     }
 }
+
+// === Responsive === //
+@media (max-width: 768px){
+    footer .sec-foottop .col {
+        flex: none;
+    }
+    .foot-bottom p {
+        text-align: center;
+    }
+    footer .foot-bottom .copyright-links ul {
+        justify-content: center;
+    }
+}
