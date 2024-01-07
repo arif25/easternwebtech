@@ -157,4 +157,10 @@ footer {
     footer .foot-bottom .copyright-links ul {
         justify-content: center;
     }
+    footer .foot-bottom .container .row {
+        flex-wrap: wrap;
+        .col {
+            flex:none;
+        }
+    }
 }
